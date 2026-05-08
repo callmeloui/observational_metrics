@@ -1,0 +1,212 @@
+{
+  "0": {
+    "utilization_rate": {
+      "n": 200,
+      "mean_diff": -0.013805882380802359,
+      "cohens_d": -0.1311789309026823,
+      "t_stat": -1.8551502494287886,
+      "t_pval": 0.06505386417872774,
+      "sig": "ns",
+      "wilcoxon_stat": 9695.0,
+      "wilcoxon_pval": 0.6648981760877597
+    },
+    "activation_norm": {
+      "n": 200,
+      "mean_diff": 0.002118894323357381,
+      "cohens_d": 0.019202271980494644,
+      "t_stat": 0.2715611370929201,
+      "t_pval": 0.7862409938283582,
+      "sig": "ns",
+      "wilcoxon_stat": 9560.0,
+      "wilcoxon_pval": 0.5499176695979203
+    },
+    "mean_routing_weight_when_active": {
+      "n": 200,
+      "mean_diff": 0.004759316296485849,
+      "cohens_d": 0.020538790346738084,
+      "t_stat": 0.2904623598844339,
+      "t_pval": 0.7717650114006861,
+      "sig": "ns",
+      "wilcoxon_stat": 9932.0,
+      "wilcoxon_pval": 0.8855161877541757
+    },
+    "activation_std": {
+      "n": 200,
+      "mean_diff": 0.008855844146528397,
+      "cohens_d": 0.06714235489277501,
+      "t_stat": 0.9495362961893988,
+      "t_pval": 0.3434996520206535,
+      "sig": "ns",
+      "wilcoxon_stat": 9343.0,
+      "wilcoxon_pval": 0.3883241671100699
+    }
+  },
+  "6": {
+    "utilization_rate": {
+      "n": 200,
+      "mean_diff": 0.0027987184513949613,
+      "cohens_d": 0.012384636752137957,
+      "t_stat": 0.17514521337441458,
+      "t_pval": 0.8611436082747638,
+      "sig": "ns",
+      "wilcoxon_stat": 9450.0,
+      "wilcoxon_pval": 0.4641062046388781
+    },
+    "activation_norm": {
+      "n": 200,
+      "mean_diff": 0.008715176183977746,
+      "cohens_d": 0.0530989544213021,
+      "t_stat": 0.7509326194795698,
+      "t_pval": 0.453580261617383,
+      "sig": "ns",
+      "wilcoxon_stat": 9091.0,
+      "wilcoxon_pval": 0.24194325631646618
+    },
+    "mean_routing_weight_when_active": {
+      "n": 200,
+      "mean_diff": 0.0030233397048959887,
+      "cohens_d": 0.018126829566137852,
+      "t_stat": 0.2563520836895701,
+      "t_pval": 0.7979438012710423,
+      "sig": "ns",
+      "wilcoxon_stat": 9791.0,
+      "wilcoxon_pval": 0.7519840989335321
+    },
+    "activation_std": {
+      "n": 200,
+      "mean_diff": 0.008499413508216093,
+      "cohens_d": 0.04606753121467185,
+      "t_stat": 0.6514932778194964,
+      "t_pval": 0.515479774673829,
+      "sig": "ns",
+      "wilcoxon_stat": 9887.0,
+      "wilcoxon_pval": 0.8423505311888275
+    }
+  },
+  "12": {
+    "utilization_rate": {
+      "n": 200,
+      "mean_diff": 0.014789546931001495,
+      "cohens_d": 0.11103391313798032,
+      "t_stat": 1.570256670219729,
+      "t_pval": 0.11794405260319678,
+      "sig": "ns",
+      "wilcoxon_stat": 9101.0,
+      "wilcoxon_pval": 0.24688790889019363
+    },
+    "activation_norm": {
+      "n": 200,
+      "mean_diff": 0.022668264452004223,
+      "cohens_d": 0.11032512167876672,
+      "t_stat": 1.560232841079301,
+      "t_pval": 0.12029375646145933,
+      "sig": "ns",
+      "wilcoxon_stat": 9736.0,
+      "wilcoxon_pval": 0.7016208282646406
+    },
+    "mean_routing_weight_when_active": {
+      "n": 200,
+      "mean_diff": -0.000991221668145954,
+      "cohens_d": -0.005825140650767955,
+      "t_stat": -0.08237992959459327,
+      "t_pval": 0.9344273967895709,
+      "sig": "ns",
+      "wilcoxon_stat": 9855.0,
+      "wilcoxon_pval": 0.8119329160710748
+    },
+    "activation_std": {
+      "n": 200,
+      "mean_diff": 0.014894479893089283,
+      "cohens_d": 0.0812891414939011,
+      "t_stat": 1.149602070017552,
+      "t_pval": 0.25168754103661745,
+      "sig": "ns",
+      "wilcoxon_stat": 9415.0,
+      "wilcoxon_pval": 0.4384529970455707
+    }
+  },
+  "18": {
+    "utilization_rate": {
+      "n": 200,
+      "mean_diff": 0.0019440511519678693,
+      "cohens_d": 0.008589378793372637,
+      "t_stat": 0.12147216035617336,
+      "t_pval": 0.9034396340703307,
+      "sig": "ns",
+      "wilcoxon_stat": 9448.0,
+      "wilcoxon_pval": 0.46261811481633996
+    },
+    "activation_norm": {
+      "n": 200,
+      "mean_diff": 0.014780751267326196,
+      "cohens_d": 0.04492438809000964,
+      "t_stat": 0.6353267911130422,
+      "t_pval": 0.525945169761068,
+      "sig": "ns",
+      "wilcoxon_stat": 9968.0,
+      "wilcoxon_pval": 0.9203014682397607
+    },
+    "mean_routing_weight_when_active": {
+      "n": 200,
+      "mean_diff": 0.06435745749623038,
+      "cohens_d": 0.12869639015907908,
+      "t_stat": 1.820041807553849,
+      "t_pval": 0.07025504822717389,
+      "sig": "ns",
+      "wilcoxon_stat": 9156.0,
+      "wilcoxon_pval": 0.2753466157886061
+    },
+    "activation_std": {
+      "n": 200,
+      "mean_diff": 0.0448347426750388,
+      "cohens_d": 0.14944785865030782,
+      "t_stat": 2.1135118927538055,
+      "t_pval": 0.03580283161068171,
+      "sig": "*",
+      "wilcoxon_stat": 9493.0,
+      "wilcoxon_pval": 0.49673569416845165
+    }
+  },
+  "23": {
+    "utilization_rate": {
+      "n": 200,
+      "mean_diff": -0.00016047094537498198,
+      "cohens_d": -0.0006477471741325201,
+      "t_stat": -0.009160528423447395,
+      "t_pval": 0.9927002348213658,
+      "sig": "ns",
+      "wilcoxon_stat": 9512.0,
+      "wilcoxon_pval": 0.5115335474847666
+    },
+    "activation_norm": {
+      "n": 200,
+      "mean_diff": 0.02937959144442175,
+      "cohens_d": 0.0921922884963835,
+      "t_stat": 1.3037958514692591,
+      "t_pval": 0.19380940036644057,
+      "sig": "ns",
+      "wilcoxon_stat": 9305.0,
+      "wilcoxon_pval": 0.4278158583581898
+    },
+    "mean_routing_weight_when_active": {
+      "n": 200,
+      "mean_diff": 0.009016249381347733,
+      "cohens_d": 0.03512680123496719,
+      "t_stat": 0.4967679890281262,
+      "t_pval": 0.6199010044410684,
+      "sig": "ns",
+      "wilcoxon_stat": 9683.0,
+      "wilcoxon_pval": 0.6542956496481116
+    },
+    "activation_std": {
+      "n": 200,
+      "mean_diff": 0.03966262996152182,
+      "cohens_d": 0.22155190922021642,
+      "t_stat": 3.1332171653907,
+      "t_pval": 0.0019901122813240323,
+      "sig": "**",
+      "wilcoxon_stat": 8330.0,
+      "wilcoxon_pval": 0.035843962864193654
+    }
+  }
+}

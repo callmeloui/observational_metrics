@@ -1,0 +1,46 @@
+{
+  "18": {
+    "layer": 18,
+    "n_tokens": 34016,
+    "correlations": {
+      "routing_weight_vs_gap_norm": {
+        "rho": 0.5962211725479302,
+        "p": 4.994896633886876e-07
+      },
+      "gap_norm_vs_relative_compensation": {
+        "rho": 0.34881911642122815,
+        "p": 0.006305215909505831
+      },
+      "routing_weight_vs_relative_compensation": {
+        "rho": -0.03450958599611004,
+        "p": 0.7935026915525333
+      },
+      "compensation_cosine_vs_gap_norm": {
+        "rho": 0.8017227007502086,
+        "p": 1.4004268467093764e-14
+      }
+    }
+  },
+  "23": {
+    "layer": 23,
+    "n_tokens": 34016,
+    "correlations": {
+      "routing_weight_vs_gap_norm": {
+        "rho": 0.7440955821061407,
+        "p": 9.568905831645939e-12
+      },
+      "gap_norm_vs_relative_compensation": {
+        "rho": 0.2818560711308697,
+        "p": 0.029126920249446558
+      },
+      "routing_weight_vs_relative_compensation": {
+        "rho": -0.011503195332036678,
+        "p": 0.9304872343127673
+      },
+      "compensation_cosine_vs_gap_norm": {
+        "rho": 0.7390941928313421,
+        "p": 1.5532061874535647e-11
+      }
+    }
+  }
+}

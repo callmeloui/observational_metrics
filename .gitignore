@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Per-run output directories created by scripts in their own cwd
+olmoe_per_token_ablation_results/
+deepseek_per_token_ablation_results/
+olmoe_routing_weight_control_layers/
+deepseek_routing_weight_control_layers/
+qwen_validation/
+progressive_ablation_results/

@@ -1,0 +1,603 @@
+{
+  "layer": 5,
+  "corpus": "wikitext",
+  "n_samples": 200,
+  "n_tokens_total": 32508,
+  "hidden_dim": 2048,
+  "correlations": {
+    "routing_weight_vs_gap_norm": {
+      "rho": 0.7092948717948717,
+      "p": 5.383407141060171e-11
+    },
+    "gap_norm_vs_relative_compensation": {
+      "rho": 0.8159798534798534,
+      "p": 2.1490094410501278e-16
+    },
+    "routing_weight_vs_relative_compensation": {
+      "rho": 0.5122710622710622,
+      "p": 1.5106705722289788e-05
+    },
+    "compensation_cosine_vs_gap_norm": {
+      "rho": 0.9016483516483516,
+      "p": 2.9969228007336877e-24
+    }
+  },
+  "experts": {
+    "0": {
+      "mean_routing_weight": 0.0324881374835968,
+      "token_coverage": 0.04595791805094131,
+      "mean_gap_norm": 0.0028480293694883585,
+      "std_gap_norm": 0.011723807081580162,
+      "compensation_cosine": 0.004071381408721209,
+      "relative_compensation": 0.0237008985131979,
+      "n_active_tokens": 1494
+    },
+    "1": {
+      "mean_routing_weight": 0.03838365525007248,
+      "token_coverage": 0.05998523440383906,
+      "mean_gap_norm": 0.006059615407139063,
+      "std_gap_norm": 0.021878592669963837,
+      "compensation_cosine": 0.01435096375644207,
+      "relative_compensation": 0.10219138115644455,
+      "n_active_tokens": 1950
+    },
+    "2": {
+      "mean_routing_weight": 0.029942983761429787,
+      "token_coverage": 0.14710225175341454,
+      "mean_gap_norm": 0.003057811176404357,
+      "std_gap_norm": 0.015954917296767235,
+      "compensation_cosine": 0.0027007453609257936,
+      "relative_compensation": 0.011376787908375263,
+      "n_active_tokens": 4782
+    },
+    "3": {
+      "mean_routing_weight": 0.03662439063191414,
+      "token_coverage": 0.04685000615233174,
+      "mean_gap_norm": 0.0050923386588692665,
+      "std_gap_norm": 0.022044533863663673,
+      "compensation_cosine": 0.004814159590750933,
+      "relative_compensation": 0.016471227630972862,
+      "n_active_tokens": 1523
+    },
+    "4": {
+      "mean_routing_weight": 0.03749096766114235,
+      "token_coverage": 0.04795742586440261,
+      "mean_gap_norm": 0.007898880168795586,
+      "std_gap_norm": 0.0287469495087862,
+      "compensation_cosine": 0.009024408645927906,
+      "relative_compensation": 0.02610015869140625,
+      "n_active_tokens": 1559
+    },
+    "5": {
+      "mean_routing_weight": 0.04878563433885574,
+      "token_coverage": 0.056847545219638244,
+      "mean_gap_norm": 0.009506997652351856,
+      "std_gap_norm": 0.03332255035638809,
+      "compensation_cosine": 0.006488704588264227,
+      "relative_compensation": 0.037936028093099594,
+      "n_active_tokens": 1848
+    },
+    "6": {
+      "mean_routing_weight": 0.05465239658951759,
+      "token_coverage": 0.14611787867601822,
+      "mean_gap_norm": 0.02784295380115509,
+      "std_gap_norm": 0.057850588113069534,
+      "compensation_cosine": 0.021274659782648087,
+      "relative_compensation": 0.0683649331331253,
+      "n_active_tokens": 4750
+    },
+    "7": {
+      "mean_routing_weight": 0.035981252789497375,
+      "token_coverage": 0.04685000615233174,
+      "mean_gap_norm": 0.005024826154112816,
+      "std_gap_norm": 0.01948031783103943,
+      "compensation_cosine": 0.0081584881991148,
+      "relative_compensation": 0.026840100064873695,
+      "n_active_tokens": 1523
+    },
+    "8": {
+      "mean_routing_weight": 0.0396173894405365,
+      "token_coverage": 0.100067675649071,
+      "mean_gap_norm": 0.014639442786574364,
+      "std_gap_norm": 0.035218559205532074,
+      "compensation_cosine": 0.015969596803188324,
+      "relative_compensation": 0.06915988028049469,
+      "n_active_tokens": 3253
+    },
+    "9": {
+      "mean_routing_weight": 0.037168532609939575,
+      "token_coverage": 0.07256675279931094,
+      "mean_gap_norm": 0.006592507939785719,
+      "std_gap_norm": 0.02346203103661537,
+      "compensation_cosine": 0.006977710407227278,
+      "relative_compensation": 0.03058880753815174,
+      "n_active_tokens": 2359
+    },
+    "10": {
+      "mean_routing_weight": 0.04485848546028137,
+      "token_coverage": 0.16196013289036545,
+      "mean_gap_norm": 0.02286642976105213,
+      "std_gap_norm": 0.04496742784976959,
+      "compensation_cosine": 0.01918698661029339,
+      "relative_compensation": 0.06642860174179077,
+      "n_active_tokens": 5265
+    },
+    "11": {
+      "mean_routing_weight": 0.030522184446454048,
+      "token_coverage": 0.22111480251015134,
+      "mean_gap_norm": 0.009421190246939659,
+      "std_gap_norm": 0.030143408104777336,
+      "compensation_cosine": 0.008722711354494095,
+      "relative_compensation": 0.03294325992465019,
+      "n_active_tokens": 7188
+    },
+    "12": {
+      "mean_routing_weight": 0.03498222678899765,
+      "token_coverage": 0.02919281407653501,
+      "mean_gap_norm": 0.003308905754238367,
+      "std_gap_norm": 0.01668361760675907,
+      "compensation_cosine": 0.0038254139944911003,
+      "relative_compensation": 0.01962290331721306,
+      "n_active_tokens": 949
+    },
+    "13": {
+      "mean_routing_weight": 0.031856436282396317,
+      "token_coverage": 0.30223329641934293,
+      "mean_gap_norm": 0.00913996808230877,
+      "std_gap_norm": 0.023618781939148903,
+      "compensation_cosine": 0.014721514657139778,
+      "relative_compensation": 0.06440705060958862,
+      "n_active_tokens": 9825
+    },
+    "14": {
+      "mean_routing_weight": 0.04021672531962395,
+      "token_coverage": 0.07087486157253599,
+      "mean_gap_norm": 0.008046993054449558,
+      "std_gap_norm": 0.023735536262392998,
+      "compensation_cosine": 0.010112280026078224,
+      "relative_compensation": 0.05546088516712189,
+      "n_active_tokens": 2304
+    },
+    "15": {
+      "mean_routing_weight": 0.03220740333199501,
+      "token_coverage": 0.22234526885689676,
+      "mean_gap_norm": 0.008871184661984444,
+      "std_gap_norm": 0.033522214740514755,
+      "compensation_cosine": 0.009697068482637405,
+      "relative_compensation": 0.03977323696017265,
+      "n_active_tokens": 7228
+    },
+    "16": {
+      "mean_routing_weight": 0.039791401475667953,
+      "token_coverage": 0.09200812107788851,
+      "mean_gap_norm": 0.017918379977345467,
+      "std_gap_norm": 0.04350246489048004,
+      "compensation_cosine": 0.01550492737442255,
+      "relative_compensation": 0.054636355489492416,
+      "n_active_tokens": 2991
+    },
+    "17": {
+      "mean_routing_weight": 0.04067766293883324,
+      "token_coverage": 0.45567244985849636,
+      "mean_gap_norm": 0.01358847226947546,
+      "std_gap_norm": 0.040058527141809464,
+      "compensation_cosine": 0.013937816955149174,
+      "relative_compensation": 0.044750772416591644,
+      "n_active_tokens": 14813
+    },
+    "18": {
+      "mean_routing_weight": 0.03945637121796608,
+      "token_coverage": 0.09926787252368648,
+      "mean_gap_norm": 0.013484022580087185,
+      "std_gap_norm": 0.0333164744079113,
+      "compensation_cosine": 0.015786752104759216,
+      "relative_compensation": 0.056043677031993866,
+      "n_active_tokens": 3227
+    },
+    "19": {
+      "mean_routing_weight": 0.04494607076048851,
+      "token_coverage": 0.12510766580534022,
+      "mean_gap_norm": 0.015714526176452637,
+      "std_gap_norm": 0.040053267031908035,
+      "compensation_cosine": 0.012057170271873474,
+      "relative_compensation": 0.041366029530763626,
+      "n_active_tokens": 4067
+    },
+    "20": {
+      "mean_routing_weight": 0.040550123900175095,
+      "token_coverage": 0.1004983388704319,
+      "mean_gap_norm": 0.03564264252781868,
+      "std_gap_norm": 0.061840008944272995,
+      "compensation_cosine": 0.023613950237631798,
+      "relative_compensation": 0.08467328548431396,
+      "n_active_tokens": 3267
+    },
+    "21": {
+      "mean_routing_weight": 0.02832374908030033,
+      "token_coverage": 0.25482958041097575,
+      "mean_gap_norm": 0.004617210477590561,
+      "std_gap_norm": 0.015596304088830948,
+      "compensation_cosine": 0.009409522637724876,
+      "relative_compensation": 0.04674685001373291,
+      "n_active_tokens": 8284
+    },
+    "22": {
+      "mean_routing_weight": 0.03178946673870087,
+      "token_coverage": 0.2315737664574874,
+      "mean_gap_norm": 0.007403453812003136,
+      "std_gap_norm": 0.024103030562400818,
+      "compensation_cosine": 0.012308351695537567,
+      "relative_compensation": 0.03980633616447449,
+      "n_active_tokens": 7528
+    },
+    "23": {
+      "mean_routing_weight": 0.0395805798470974,
+      "token_coverage": 0.18552356343054016,
+      "mean_gap_norm": 0.024654163047671318,
+      "std_gap_norm": 0.05284781754016876,
+      "compensation_cosine": 0.01703045330941677,
+      "relative_compensation": 0.06279465556144714,
+      "n_active_tokens": 6031
+    },
+    "24": {
+      "mean_routing_weight": 0.03399564325809479,
+      "token_coverage": 0.014734834502276363,
+      "mean_gap_norm": 0.0012494310503825545,
+      "std_gap_norm": 0.00996972993016243,
+      "compensation_cosine": 0.0015530232340097427,
+      "relative_compensation": 0.006855056621134281,
+      "n_active_tokens": 479
+    },
+    "25": {
+      "mean_routing_weight": 0.038967665284872055,
+      "token_coverage": 0.0542020425741356,
+      "mean_gap_norm": 0.00438298936933279,
+      "std_gap_norm": 0.018239537253975868,
+      "compensation_cosine": 0.003019120777025819,
+      "relative_compensation": 0.018531279638409615,
+      "n_active_tokens": 1762
+    },
+    "26": {
+      "mean_routing_weight": 0.031937018036842346,
+      "token_coverage": 0.14934785283622493,
+      "mean_gap_norm": 0.0032918595243245363,
+      "std_gap_norm": 0.01278666127473116,
+      "compensation_cosine": 0.005761323496699333,
+      "relative_compensation": 0.03273506835103035,
+      "n_active_tokens": 4855
+    },
+    "27": {
+      "mean_routing_weight": 0.0395776629447937,
+      "token_coverage": 0.10252860834256183,
+      "mean_gap_norm": 0.009251086041331291,
+      "std_gap_norm": 0.0304718017578125,
+      "compensation_cosine": 0.009450423531234264,
+      "relative_compensation": 0.03768042474985123,
+      "n_active_tokens": 3333
+    },
+    "28": {
+      "mean_routing_weight": 0.04786188527941704,
+      "token_coverage": 0.12975267626430417,
+      "mean_gap_norm": 0.016738243401050568,
+      "std_gap_norm": 0.03880452737212181,
+      "compensation_cosine": 0.011382296681404114,
+      "relative_compensation": 0.06471164524555206,
+      "n_active_tokens": 4218
+    },
+    "29": {
+      "mean_routing_weight": 0.03074008598923683,
+      "token_coverage": 0.006121570075058447,
+      "mean_gap_norm": 0.00011460216046543792,
+      "std_gap_norm": 0.0016125956317409873,
+      "compensation_cosine": 0.00016079089255072176,
+      "relative_compensation": 0.0014047890435904264,
+      "n_active_tokens": 199
+    },
+    "30": {
+      "mean_routing_weight": 0.04074101895093918,
+      "token_coverage": 0.09071613141380583,
+      "mean_gap_norm": 0.009272151626646519,
+      "std_gap_norm": 0.02547338232398033,
+      "compensation_cosine": 0.015078055672347546,
+      "relative_compensation": 0.05174986645579338,
+      "n_active_tokens": 2949
+    },
+    "31": {
+      "mean_routing_weight": 0.03113861009478569,
+      "token_coverage": 0.30475575243017106,
+      "mean_gap_norm": 0.001354379579424858,
+      "std_gap_norm": 0.009331509470939636,
+      "compensation_cosine": 0.003463157918304205,
+      "relative_compensation": 0.017670487985014915,
+      "n_active_tokens": 9907
+    },
+    "32": {
+      "mean_routing_weight": 0.037295613437891006,
+      "token_coverage": 0.05906238464377999,
+      "mean_gap_norm": 0.008744117803871632,
+      "std_gap_norm": 0.029966240748763084,
+      "compensation_cosine": 0.007660167757421732,
+      "relative_compensation": 0.03143693134188652,
+      "n_active_tokens": 1920
+    },
+    "33": {
+      "mean_routing_weight": 0.035030439496040344,
+      "token_coverage": 0.037775316845084284,
+      "mean_gap_norm": 0.0048872195184230804,
+      "std_gap_norm": 0.020999226719141006,
+      "compensation_cosine": 0.005150717217475176,
+      "relative_compensation": 0.020183231681585312,
+      "n_active_tokens": 1228
+    },
+    "34": {
+      "mean_routing_weight": 0.03750206530094147,
+      "token_coverage": 0.0803494524424757,
+      "mean_gap_norm": 0.009693441912531853,
+      "std_gap_norm": 0.03025888465344906,
+      "compensation_cosine": 0.007628654595464468,
+      "relative_compensation": 0.03134014829993248,
+      "n_active_tokens": 2612
+    },
+    "35": {
+      "mean_routing_weight": 0.0391048789024353,
+      "token_coverage": 0.23197366802017966,
+      "mean_gap_norm": 0.014693009667098522,
+      "std_gap_norm": 0.04287818819284439,
+      "compensation_cosine": 0.01465360727161169,
+      "relative_compensation": 0.047482382506132126,
+      "n_active_tokens": 7541
+    },
+    "36": {
+      "mean_routing_weight": 0.03433840721845627,
+      "token_coverage": 0.025993601574996923,
+      "mean_gap_norm": 0.003348011989146471,
+      "std_gap_norm": 0.016866685822606087,
+      "compensation_cosine": 0.003929109312593937,
+      "relative_compensation": 0.017122136428952217,
+      "n_active_tokens": 845
+    },
+    "37": {
+      "mean_routing_weight": 0.042395900934934616,
+      "token_coverage": 0.1626061277224068,
+      "mean_gap_norm": 0.021915823221206665,
+      "std_gap_norm": 0.04958169534802437,
+      "compensation_cosine": 0.014381484128534794,
+      "relative_compensation": 0.058468520641326904,
+      "n_active_tokens": 5286
+    },
+    "38": {
+      "mean_routing_weight": 0.04043494537472725,
+      "token_coverage": 0.11781715270087363,
+      "mean_gap_norm": 0.0069225928746163845,
+      "std_gap_norm": 0.029111526906490326,
+      "compensation_cosine": 0.0052819205448031425,
+      "relative_compensation": 0.03187333419919014,
+      "n_active_tokens": 3830
+    },
+    "39": {
+      "mean_routing_weight": 0.04113106057047844,
+      "token_coverage": 0.049249415528485295,
+      "mean_gap_norm": 0.0018609254620969296,
+      "std_gap_norm": 0.013619611039757729,
+      "compensation_cosine": 0.0013017439050599933,
+      "relative_compensation": 0.00848039984703064,
+      "n_active_tokens": 1601
+    },
+    "40": {
+      "mean_routing_weight": 0.043153274804353714,
+      "token_coverage": 0.2147471391657438,
+      "mean_gap_norm": 0.025470387190580368,
+      "std_gap_norm": 0.045502226799726486,
+      "compensation_cosine": 0.018395354971289635,
+      "relative_compensation": 0.09434103220701218,
+      "n_active_tokens": 6981
+    },
+    "41": {
+      "mean_routing_weight": 0.03376449644565582,
+      "token_coverage": 0.02836224929248185,
+      "mean_gap_norm": 0.0008843913674354553,
+      "std_gap_norm": 0.007682882249355316,
+      "compensation_cosine": 0.0012401659041643143,
+      "relative_compensation": 0.006618117913603783,
+      "n_active_tokens": 922
+    },
+    "42": {
+      "mean_routing_weight": 0.025179622694849968,
+      "token_coverage": 0.007967269595176572,
+      "mean_gap_norm": 0.0018145613139495254,
+      "std_gap_norm": 0.006413477472960949,
+      "compensation_cosine": 0.002500646049156785,
+      "relative_compensation": 0.025742217898368835,
+      "n_active_tokens": 259
+    },
+    "43": {
+      "mean_routing_weight": 0.05798958241939545,
+      "token_coverage": 0.12264673311184938,
+      "mean_gap_norm": 0.02317756786942482,
+      "std_gap_norm": 0.05551466718316078,
+      "compensation_cosine": 0.018233705312013626,
+      "relative_compensation": 0.06846639513969421,
+      "n_active_tokens": 3987
+    },
+    "44": {
+      "mean_routing_weight": 0.044303808361291885,
+      "token_coverage": 0.2369878183831672,
+      "mean_gap_norm": 0.02982480451464653,
+      "std_gap_norm": 0.05261707678437233,
+      "compensation_cosine": 0.01886400394141674,
+      "relative_compensation": 0.0749933123588562,
+      "n_active_tokens": 7704
+    },
+    "45": {
+      "mean_routing_weight": 0.037900958210229874,
+      "token_coverage": 0.07668881506090808,
+      "mean_gap_norm": 0.012294831685721874,
+      "std_gap_norm": 0.030382482334971428,
+      "compensation_cosine": 0.013871065340936184,
+      "relative_compensation": 0.06209960952401161,
+      "n_active_tokens": 2493
+    },
+    "46": {
+      "mean_routing_weight": 0.0328141450881958,
+      "token_coverage": 0.024701611910914238,
+      "mean_gap_norm": 0.0053285155445337296,
+      "std_gap_norm": 0.02075735479593277,
+      "compensation_cosine": 0.0056154471822083,
+      "relative_compensation": 0.022407284006476402,
+      "n_active_tokens": 803
+    },
+    "47": {
+      "mean_routing_weight": 0.0423165000975132,
+      "token_coverage": 0.038144456749107915,
+      "mean_gap_norm": 0.0057531073689460754,
+      "std_gap_norm": 0.022667933255434036,
+      "compensation_cosine": 0.005726930219680071,
+      "relative_compensation": 0.024388883262872696,
+      "n_active_tokens": 1240
+    },
+    "48": {
+      "mean_routing_weight": 0.03681337460875511,
+      "token_coverage": 0.042081949058693245,
+      "mean_gap_norm": 0.004389809910207987,
+      "std_gap_norm": 0.02097984030842781,
+      "compensation_cosine": 0.00446756137534976,
+      "relative_compensation": 0.016197267919778824,
+      "n_active_tokens": 1368
+    },
+    "49": {
+      "mean_routing_weight": 0.03739839419722557,
+      "token_coverage": 0.0754891103728313,
+      "mean_gap_norm": 0.01492772065103054,
+      "std_gap_norm": 0.03732168301939964,
+      "compensation_cosine": 0.01216515526175499,
+      "relative_compensation": 0.04759703576564789,
+      "n_active_tokens": 2454
+    },
+    "50": {
+      "mean_routing_weight": 0.03780984506011009,
+      "token_coverage": 0.14581026208933184,
+      "mean_gap_norm": 0.01683168299496174,
+      "std_gap_norm": 0.03827878460288048,
+      "compensation_cosine": 0.017565466463565826,
+      "relative_compensation": 0.06736108660697937,
+      "n_active_tokens": 4740
+    },
+    "51": {
+      "mean_routing_weight": 0.029236670583486557,
+      "token_coverage": 0.23864894795127353,
+      "mean_gap_norm": 0.0034885837230831385,
+      "std_gap_norm": 0.013562120497226715,
+      "compensation_cosine": 0.005503058433532715,
+      "relative_compensation": 0.038321126252412796,
+      "n_active_tokens": 7758
+    },
+    "52": {
+      "mean_routing_weight": 0.03767833113670349,
+      "token_coverage": 0.11347975882859604,
+      "mean_gap_norm": 0.012666016817092896,
+      "std_gap_norm": 0.030409183353185654,
+      "compensation_cosine": 0.01899404078722,
+      "relative_compensation": 0.05853710696101189,
+      "n_active_tokens": 3689
+    },
+    "53": {
+      "mean_routing_weight": 0.036569055169820786,
+      "token_coverage": 0.07004429678848284,
+      "mean_gap_norm": 0.006198100745677948,
+      "std_gap_norm": 0.02014217898249626,
+      "compensation_cosine": 0.007725524250417948,
+      "relative_compensation": 0.042372047901153564,
+      "n_active_tokens": 2277
+    },
+    "54": {
+      "mean_routing_weight": 0.044613584876060486,
+      "token_coverage": 0.10806570690291621,
+      "mean_gap_norm": 0.016456643119454384,
+      "std_gap_norm": 0.037961944937705994,
+      "compensation_cosine": 0.01865629479289055,
+      "relative_compensation": 0.0705813392996788,
+      "n_active_tokens": 3513
+    },
+    "55": {
+      "mean_routing_weight": 0.042444922029972076,
+      "token_coverage": 0.49812353882121324,
+      "mean_gap_norm": 0.008964022621512413,
+      "std_gap_norm": 0.022022351622581482,
+      "compensation_cosine": 0.016694242134690285,
+      "relative_compensation": 0.08620715141296387,
+      "n_active_tokens": 16193
+    },
+    "56": {
+      "mean_routing_weight": 0.040594927966594696,
+      "token_coverage": 0.07145933308724006,
+      "mean_gap_norm": 0.012584557756781578,
+      "std_gap_norm": 0.04189459607005119,
+      "compensation_cosine": 0.006874736398458481,
+      "relative_compensation": 0.02645311877131462,
+      "n_active_tokens": 2323
+    },
+    "57": {
+      "mean_routing_weight": 0.05864229425787926,
+      "token_coverage": 0.12233911652516304,
+      "mean_gap_norm": 0.028172170743346214,
+      "std_gap_norm": 0.08084549009799957,
+      "compensation_cosine": 0.023069100454449654,
+      "relative_compensation": 0.04757319390773773,
+      "n_active_tokens": 3977
+    },
+    "58": {
+      "mean_routing_weight": 0.03870915621519089,
+      "token_coverage": 0.08588655100283007,
+      "mean_gap_norm": 0.008309946395456791,
+      "std_gap_norm": 0.02405574358999729,
+      "compensation_cosine": 0.013370451517403126,
+      "relative_compensation": 0.0470782071352005,
+      "n_active_tokens": 2792
+    },
+    "59": {
+      "mean_routing_weight": 0.033147040754556656,
+      "token_coverage": 0.038667404946474714,
+      "mean_gap_norm": 0.0033503808081150055,
+      "std_gap_norm": 0.015191933140158653,
+      "compensation_cosine": 0.0036387918516993523,
+      "relative_compensation": 0.020718174055218697,
+      "n_active_tokens": 1257
+    },
+    "60": {
+      "mean_routing_weight": 0.03142528980970383,
+      "token_coverage": 0.11486403346868464,
+      "mean_gap_norm": 0.005574909038841724,
+      "std_gap_norm": 0.016332702711224556,
+      "compensation_cosine": 0.008740087039768696,
+      "relative_compensation": 0.05761892721056938,
+      "n_active_tokens": 3734
+    },
+    "61": {
+      "mean_routing_weight": 0.030176181346178055,
+      "token_coverage": 0.22296050203026946,
+      "mean_gap_norm": 0.0020885029807686806,
+      "std_gap_norm": 0.009135435335338116,
+      "compensation_cosine": 0.0036390749737620354,
+      "relative_compensation": 0.024424217641353607,
+      "n_active_tokens": 7248
+    },
+    "62": {
+      "mean_routing_weight": 0.048112694174051285,
+      "token_coverage": 0.08751691891226775,
+      "mean_gap_norm": 0.008394673466682434,
+      "std_gap_norm": 0.026642126962542534,
+      "compensation_cosine": 0.005295801907777786,
+      "relative_compensation": 0.03201338276267052,
+      "n_active_tokens": 2845
+    },
+    "63": {
+      "mean_routing_weight": 0.03800131753087044,
+      "token_coverage": 0.2748246585455888,
+      "mean_gap_norm": 0.028934702277183533,
+      "std_gap_norm": 0.04680299013853073,
+      "compensation_cosine": 0.032565027475357056,
+      "relative_compensation": 0.11431244760751724,
+      "n_active_tokens": 8934
+    }
+  }
+}

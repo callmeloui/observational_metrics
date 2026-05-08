@@ -1,0 +1,11 @@
+# Versions used to produce the results reported in the paper.
+# Later versions of transformers may work but have not been tested.
+
+torch>=2.1,<2.4
+transformers>=4.40,<4.46
+datasets>=2.18
+numpy>=1.24,<2.0
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+tqdm>=4.66
