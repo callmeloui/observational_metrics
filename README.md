@@ -55,14 +55,12 @@ asymmetry is cosmetic.
 
 ## Mapping experiments to scripts
 
-Paper section in parentheses.
-
-| Experiment                                    | OLMoE                                  | Qwen1.5-MoE                            | DeepSeek-V2-Lite                       |
-|-----------------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
-| Per-token causal ablation (§6.1, §7.1, §7.4)  | `per_token_ablation_olmoe.py`          | `validation_qwen.py` (ablation half)   | `per_token_ablation_deepseek.py`       |
-| Routing-weight control (§6.2, §7.2, §7.4)     | `routing_weight_control_olmoe.py`      | `validation_qwen.py` (control half)    | `routing_weight_control_deepseek.py`   |
-| Redistribution analysis (§6.3, §7.3, §7.4)    | `redistribution_olmoe.py`              | `redistribution_qwen.py`               | not run                                |
-| Progressive ablation (§6.4, §7.5)             | `progressive_ablation_olmoe.py`        | not run                                | not run                                |
+| Experiment                       | OLMoE                                  | Qwen1.5-MoE                            | DeepSeek-V2-Lite                       |
+|----------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
+| Per-token causal ablation        | `per_token_ablation_olmoe.py`          | `validation_qwen.py` (ablation half)   | `per_token_ablation_deepseek.py`       |
+| Routing-weight control           | `routing_weight_control_olmoe.py`      | `validation_qwen.py` (control half)    | `routing_weight_control_deepseek.py`   |
+| Redistribution analysis          | `redistribution_olmoe.py`              | `redistribution_qwen.py`               | not run                                |
+| Progressive ablation             | `progressive_ablation_olmoe.py`        | not run                                | not run                                |
 
 Layers tested in the paper: OLMoE [0, 4, 7, 11, 15] of 16 layers; Qwen
 [0, 6, 12, 18, 23] of 24 layers; DeepSeek [1, 7, 13, 20, 26] of 27 layers
@@ -107,13 +105,12 @@ resolve correctly.
 
 ## Verification
 
-The paper's Appendix B describes a four-test verification procedure that runs
-before any data collection (per-token cross-entropy matches Hugging Face
-reference loss; no stale state after clearing ablation hooks; position
-diversity; position-specific ablation effect). The verification logic is
-embedded in each per-token ablation worker (`verify_all` / runtime probes)
-and aborts data collection if any test fails. There is no separate
-`verify.py`.
+The verification procedures described in the paper run before any data
+collection (per-token cross-entropy matches Hugging Face reference loss; no
+stale state after clearing ablation hooks; position diversity;
+position-specific ablation effect). The verification logic is embedded in
+each per-token ablation worker (`verify_all` / runtime probes) and aborts
+data collection if any test fails. There is no separate `verify.py`.
 
 ## Outputs
 
@@ -147,7 +144,6 @@ DeepSeek-V2-Lite.
 
 ## Repository scope
 
-This repository contains the experiments cited in the workshop paper. Earlier
-exploratory scripts (linguistic routing analysis, pairwise expert interaction
-studies) are part of the larger thesis project and are not included here to
-keep the review surface minimal.
+This repository contains the experiments cited in the workshop paper.
+Earlier exploratory scripts are not included here to keep the review
+surface minimal.
