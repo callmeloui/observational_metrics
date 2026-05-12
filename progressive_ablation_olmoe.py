@@ -7,7 +7,7 @@ Design:
 - For each token position, progressively remove active experts one-by-one
   in descending routing-weight order (highest-weighted first)
 - Record loss delta at each removal step (k=1..7 experts removed of 8)
-- Run across layers 0, 7, 8, 15 to characterise depth gradient
+- Run across layers 0, 1, 7, 8, 9, 15 to characterise depth gradient
 - Reuses per-token ablation token positions for direct comparability
 
 Compute estimate (RTX 3090):
@@ -18,7 +18,7 @@ Output:
   - progressive_ablation_results.json   (raw per-token curves)
   - progressive_ablation_summary.csv    (aggregated stats per layer × step)
   - progressive_ablation_curves.png     (visualisation)
-  - progressive_ablation_analysis.md                    (thesis-ready write-up)
+  - progressive_ablation_analysis.md    (human-readable summary report)
 """
 
 import os
